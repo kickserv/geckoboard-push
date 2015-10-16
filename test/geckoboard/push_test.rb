@@ -2,7 +2,7 @@ require 'test/unit'
 gem 'fakeweb'
 require 'fakeweb'
 gem 'mocha'
-require 'mocha'
+require 'mocha/mini_test'
 require File.join(File.expand_path(File.dirname(__FILE__)), "..", "..", "lib", "geckoboard", "push")
 
 class PushTest < Test::Unit::TestCase
